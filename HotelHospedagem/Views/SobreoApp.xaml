@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HotelHospedagem.Views.SobreoApp"
+             Title="SobreoApp"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="{StaticResource White}">
+    <VerticalStackLayout VerticalOptions="CenterAndExpand"
+                     Padding="10"
+                     Spacing="10">
+
+        <Label Text="Sobre o APP"
+           FontFamily="SpecialEliteRegular"
+           FontSize="50"
+           HorizontalOptions="Center"
+           TextColor="{StaticResource Black}" />
+
+        <Frame>
+            <VerticalStackLayout>
+                <Label Text="O Aplicativo oficial do Hotel Harmonia, criado para proporcionar 
+aos hóspedes uma experiência completa e personalizada, desde o momento da reservaaté o checkout. Com uma interface intuitiva e moderna, o aplicativo reúne todas as 
+funcionalidades necessárias para tornar a estadia mais prática e agradável.Com o app, os usuários podem reservar quartos 
+facilmente, utilizando filtros para selecionar o tipo de acomodação, número de hóspedes e datas de estadia.
+O recurso de Check-in Online permite que o hóspede evite filas e acesse seu quarto de maneira rápida e conveniente. 
+Além disso, o aplicativo oferece um serviço completo de Room Service e Concierge, onde é possível fazer pedidos de refeições, reservas para jantar, 
+ou solicitar assistência personalizada diretamente pelo app. Para tornar a experiência ainda mais rica, o Harmonia Stay disponibiliza um guia local 
+com recomendações de passeios e atrações próximas, facilitando o planejamento do roteiro para aproveitar melhor a cidade. Também conta com um Mapa 
+Interativo do Hotel, que mostra áreas como restaurante, academia, piscina e spa, ajudando os hóspedes a se orientarem facilmente dentro do hotel."
+       
+       FontSize="10"
+       TextColor="{StaticResource White}"
+               VerticalOptions="Center"/>
+            </VerticalStackLayout>
+        </Frame>
+        <Button Clicked="Button_Clicked3" Text="Voltar"
+TextColor="White"
+BackgroundColor="Black"
+BorderColor="{StaticResource White}"/>
+    </VerticalStackLayout>
+</ContentPage>
